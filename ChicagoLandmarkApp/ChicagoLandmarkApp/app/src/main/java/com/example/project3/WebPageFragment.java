@@ -1,12 +1,3 @@
-/**********************************************************
- * Program 3 - Activity-1
-
- Course: CS 478, Spring 2024.
- Author: Yashwi S
-
- Description: This file contains the webPage class, which represents
- a fragment displaying a web page.
- ***********************************************************/
 package com.example.project3;
 
 import android.os.Bundle;
