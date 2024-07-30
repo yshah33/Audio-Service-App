@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Welcome to the Audio Clip"
+        android:textColor="#19287D"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-1dp"
+            android:background="#19287D"
+            android:padding="16dp"
+            android:text="Start Service"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-1dp"
+            android:background="#19287D"
+            android:padding="16dp"
+            android:text="Stop Service"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <Spinner
+        android:id="@+id/clipSpinner"
+        android:layout_width="390dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:prompt="@string/clip_prompt"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Play Clip"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#19287D"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#19287D"
+        android:layout_gravity="center_horizontal"
+        android:text="Pause Clip"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/resume"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Resume clip"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#19287D"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/stopClip"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Stop clip"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#19287D"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
