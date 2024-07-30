@@ -1,4 +1,4 @@
-# Gopher Hunt
+# Gopher Hunting
 
 ## Overview
 
