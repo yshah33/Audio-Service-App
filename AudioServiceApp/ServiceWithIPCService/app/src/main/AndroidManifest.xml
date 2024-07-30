@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="course.examples.Services.KeyService"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+
+    <permission
+        android:name="course.examples.Services.KeyService.GEN_ID"
+        android:protectionLevel="dangerous"
+        android:label="Allow requesting unique key" >
+    </permission>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/Theme.AppCompat.Light" >
+
+        <activity
+            android:name=".KeyGeneratorActivity"
+            android:label="ClipServer"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".KeyGeneratorImpl"
+            android:foregroundServiceType="mediaPlayback"
+            android:exported="true" >
+
+            <intent-filter>
+                <action android:name="course.examples.Services.KeyCommon.KeyGenerator" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>
