@@ -1,4 +1,4 @@
-# Chicago Gopher Hunt
+# Gopher Hunt
 
 ## Overview
 
