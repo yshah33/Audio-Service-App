@@ -1,12 +1,3 @@
-/**********************************************************
- * Program 3 - Activity-1
-
- Course: CS 478, Spring 2024.
- Author: Yashwi S
-
- Description: This file contains the MainActivity class, which serves
- as the main entry point and controller for the application 1.
- ***********************************************************/
 package com.example.project3;
 
 import android.content.ComponentName;
