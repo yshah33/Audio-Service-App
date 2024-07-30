@@ -1,12 +1,3 @@
-/**********************************************************
- * Program 3 - Activity-1
-
- Course: CS 478, Spring 2024.
- Author: Yashwi S
-
- Description: This file contains the ChicagoLandmark class, which is a ListFragment representing
- a list of Chicago landmarks. It utilizes a ViewModel to manage the list data and item selection.
- ***********************************************************/
 package com.example.project3;
 
 import android.content.Context;
